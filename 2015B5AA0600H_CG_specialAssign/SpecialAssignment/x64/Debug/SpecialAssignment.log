@@ -1,0 +1,25 @@
+﻿  Hermite.cpp
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(152,17): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(174,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(213,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(231,39): warning C4305: '+=': truncation from 'double' to 'float'
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(240,44): warning C4305: '+=': truncation from 'double' to 'float'
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(288,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(292,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(298,84): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(322,49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(313,16): warning C4101: 'j': unreferenced local variable
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(295,15): warning C4101: 'angle': unreferenced local variable
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(340,39): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(340,31): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(353,36): warning C4244: 'argument': conversion from 'const double' to 'GLsizei', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(353,28): warning C4244: 'argument': conversion from 'const double' to 'GLsizei', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(353,22): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(353,16): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(356,52): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\Hermite.cpp(357,44): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  mesh.cpp
+F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\mesh.cpp(104,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  SpecialAssignment.vcxproj -> F:\OpenGL\2015B5AA0600H_CG_specialAssign\SpecialAssignment\x64\Debug\SpecialAssignment.exe

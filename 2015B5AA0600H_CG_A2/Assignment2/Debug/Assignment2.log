@@ -1,0 +1,64 @@
+﻿  Source.cpp
+F:\OpenGL\Assignment2\shader.h(56,41): warning C4101: 'e': unreferenced local variable
+F:\OpenGL\Assignment2\Source.cpp(222,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\Assignment2\Source.cpp(316,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\Assignment2\Source.cpp(317,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\Assignment2\Source.cpp(321,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\Assignment2\Source.cpp(322,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\Assignment2\Source.cpp(324,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\Assignment2\Source.cpp(325,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\OpenGL\Assignment2\Source.cpp(334,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Source.obj : error LNK2019: unresolved external symbol _gladLoadGLLoader referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+Source.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+Source.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol _glfwGetProcAddress referenced in function _main
+Source.obj : error LNK2001: unresolved external symbol _glad_glTexParameteri
+Source.obj : error LNK2001: unresolved external symbol _glad_glTexImage2D
+Source.obj : error LNK2001: unresolved external symbol _glad_glClear
+Source.obj : error LNK2001: unresolved external symbol _glad_glClearColor
+Source.obj : error LNK2001: unresolved external symbol _glad_glEnable
+Source.obj : error LNK2001: unresolved external symbol _glad_glViewport
+Source.obj : error LNK2001: unresolved external symbol _glad_glDrawArrays
+Source.obj : error LNK2001: unresolved external symbol _glad_glBindTexture
+Source.obj : error LNK2001: unresolved external symbol _glad_glGenTextures
+Source.obj : error LNK2001: unresolved external symbol _glad_glActiveTexture
+Source.obj : error LNK2001: unresolved external symbol _glad_glBindBuffer
+Source.obj : error LNK2001: unresolved external symbol _glad_glDeleteBuffers
+Source.obj : error LNK2001: unresolved external symbol _glad_glGenBuffers
+Source.obj : error LNK2001: unresolved external symbol _glad_glBufferData
+Source.obj : error LNK2001: unresolved external symbol _glad_glAttachShader
+Source.obj : error LNK2001: unresolved external symbol _glad_glCompileShader
+Source.obj : error LNK2001: unresolved external symbol _glad_glCreateProgram
+Source.obj : error LNK2001: unresolved external symbol _glad_glCreateShader
+Source.obj : error LNK2001: unresolved external symbol _glad_glDeleteShader
+Source.obj : error LNK2001: unresolved external symbol _glad_glEnableVertexAttribArray
+Source.obj : error LNK2001: unresolved external symbol _glad_glGetProgramiv
+Source.obj : error LNK2001: unresolved external symbol _glad_glGetProgramInfoLog
+Source.obj : error LNK2001: unresolved external symbol _glad_glGetShaderiv
+Source.obj : error LNK2001: unresolved external symbol _glad_glGetShaderInfoLog
+Source.obj : error LNK2001: unresolved external symbol _glad_glGetUniformLocation
+Source.obj : error LNK2001: unresolved external symbol _glad_glLinkProgram
+Source.obj : error LNK2001: unresolved external symbol _glad_glShaderSource
+Source.obj : error LNK2001: unresolved external symbol _glad_glUseProgram
+Source.obj : error LNK2001: unresolved external symbol _glad_glUniform1i
+Source.obj : error LNK2001: unresolved external symbol _glad_glUniformMatrix4fv
+Source.obj : error LNK2001: unresolved external symbol _glad_glVertexAttribPointer
+Source.obj : error LNK2001: unresolved external symbol _glad_glGenerateMipmap
+Source.obj : error LNK2001: unresolved external symbol _glad_glBindVertexArray
+Source.obj : error LNK2001: unresolved external symbol _glad_glDeleteVertexArrays
+Source.obj : error LNK2001: unresolved external symbol _glad_glGenVertexArrays
+F:\OpenGL\Assignment2\Dependencies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+F:\OpenGL\Assignment2\Debug\Assignment2.exe : fatal error LNK1120: 52 unresolved externals

@@ -1,0 +1,2 @@
+﻿  BezierSurfaceRevolution.cpp
+F:\OpenGL\2015B5AA0600H_CG_A3\src\BezierSurfaceRevolution.cpp(2,10): fatal error C1083: Cannot open include file: 'bits/stdc++.h': No such file or directory

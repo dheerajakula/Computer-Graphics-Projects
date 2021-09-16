@@ -1,0 +1,6 @@
+﻿  Source.cpp
+F:\OpenGL\2015B5AA0600H_CG_A1\Assignment1\src\Source.cpp(54,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+F:\OpenGL\2015B5AA0600H_CG_A1\Assignment1\src\Source.cpp(55,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+F:\OpenGL\2015B5AA0600H_CG_A1\Assignment1\src\Source.cpp(72,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+F:\OpenGL\2015B5AA0600H_CG_A1\Assignment1\src\Source.cpp(73,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Assignment1.vcxproj -> F:\OpenGL\2015B5AA0600H_CG_A1\Assignment1\Debug\Assignment1.exe

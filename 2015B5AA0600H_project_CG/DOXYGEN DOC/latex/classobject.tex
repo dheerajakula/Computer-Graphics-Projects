@@ -1,0 +1,138 @@
+\hypertarget{classobject}{}\doxysection{object Class Reference}
+\label{classobject}\index{object@{object}}
+
+
+{\ttfamily \#include $<$object.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classobject_a04aad740887b47c735b9ed9078e45d77}{object}} ()
+\item 
+\mbox{\hyperlink{classobject_acb0228a7eb47bcb28ad09cdfeaedb937}{object}} (std\+::vector$<$ float $>$ v)
+\item 
+\mbox{\hyperlink{classobject_a1932831a8873885a1a29453f1eb17988}{object}} (const char $\ast$file\+\_\+name, float \mbox{\hyperlink{classobject_af471d4a6ad94e031d81595b3d8cd1e91}{scale}}=1)
+\item 
+bool \mbox{\hyperlink{classobject_ad75669514ee532330e7399c15c1560c0}{readfile}} (const char $\ast$file\+\_\+name, float \mbox{\hyperlink{classobject_af471d4a6ad94e031d81595b3d8cd1e91}{scale}})
+\item 
+void \mbox{\hyperlink{classobject_a65379fec39563de4f8b44ee7d4233170}{setup}} ()
+\item 
+void \mbox{\hyperlink{classobject_a8b5c2376e1400d69e4d0440fbdffebab}{translate}} (glm\+::vec3 translation)
+\item 
+void \mbox{\hyperlink{classobject_a24e8112e32d65db82e2a6c69854483f6}{rotate}} (float angle, glm\+::vec3 axis)
+\item 
+void \mbox{\hyperlink{classobject_af471d4a6ad94e031d81595b3d8cd1e91}{scale}} (float s)
+\item 
+void \mbox{\hyperlink{classobject_a8e9979b01bc62f31e22959bb59826596}{draw}} (\mbox{\hyperlink{class_shader}{Shader}} our\+Shader)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ float $>$ \mbox{\hyperlink{classobject_aeb3eb5e2efa27439811beb1abf9bef1d}{vertices}}
+\item 
+unsigned int \mbox{\hyperlink{classobject_afe6a632b923802154b8d12136147808f}{V\+AO}}
+\item 
+unsigned int \mbox{\hyperlink{classobject_acefb3b141594ab973a7353d3220b4f4e}{V\+BO}}
+\item 
+int \mbox{\hyperlink{classobject_a0d605e44ee095064756abb1870c180e9}{no\+\_\+of\+\_\+vertices}}
+\item 
+glm\+::mat4 \mbox{\hyperlink{classobject_a083bd0f022fe0f0e0f3334766e726ea5}{model}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classobject_a04aad740887b47c735b9ed9078e45d77}\label{classobject_a04aad740887b47c735b9ed9078e45d77}} 
+\index{object@{object}!object@{object}}
+\index{object@{object}!object@{object}}
+\doxysubsubsection{\texorpdfstring{object()}{object()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily object\+::object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classobject_acb0228a7eb47bcb28ad09cdfeaedb937}\label{classobject_acb0228a7eb47bcb28ad09cdfeaedb937}} 
+\index{object@{object}!object@{object}}
+\index{object@{object}!object@{object}}
+\doxysubsubsection{\texorpdfstring{object()}{object()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily object\+::object (\begin{DoxyParamCaption}\item[{std\+::vector$<$ float $>$}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classobject_a1932831a8873885a1a29453f1eb17988}\label{classobject_a1932831a8873885a1a29453f1eb17988}} 
+\index{object@{object}!object@{object}}
+\index{object@{object}!object@{object}}
+\doxysubsubsection{\texorpdfstring{object()}{object()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily object\+::object (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name,  }\item[{float}]{scale = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classobject_a8e9979b01bc62f31e22959bb59826596}\label{classobject_a8e9979b01bc62f31e22959bb59826596}} 
+\index{object@{object}!draw@{draw}}
+\index{draw@{draw}!object@{object}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void object\+::draw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_shader}{Shader}}}]{our\+Shader }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classobject_ad75669514ee532330e7399c15c1560c0}\label{classobject_ad75669514ee532330e7399c15c1560c0}} 
+\index{object@{object}!readfile@{readfile}}
+\index{readfile@{readfile}!object@{object}}
+\doxysubsubsection{\texorpdfstring{readfile()}{readfile()}}
+{\footnotesize\ttfamily bool object\+::readfile (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name,  }\item[{float}]{scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classobject_a24e8112e32d65db82e2a6c69854483f6}\label{classobject_a24e8112e32d65db82e2a6c69854483f6}} 
+\index{object@{object}!rotate@{rotate}}
+\index{rotate@{rotate}!object@{object}}
+\doxysubsubsection{\texorpdfstring{rotate()}{rotate()}}
+{\footnotesize\ttfamily void object\+::rotate (\begin{DoxyParamCaption}\item[{float}]{angle,  }\item[{glm\+::vec3}]{axis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classobject_af471d4a6ad94e031d81595b3d8cd1e91}\label{classobject_af471d4a6ad94e031d81595b3d8cd1e91}} 
+\index{object@{object}!scale@{scale}}
+\index{scale@{scale}!object@{object}}
+\doxysubsubsection{\texorpdfstring{scale()}{scale()}}
+{\footnotesize\ttfamily void object\+::scale (\begin{DoxyParamCaption}\item[{float}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classobject_a65379fec39563de4f8b44ee7d4233170}\label{classobject_a65379fec39563de4f8b44ee7d4233170}} 
+\index{object@{object}!setup@{setup}}
+\index{setup@{setup}!object@{object}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void object\+::setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classobject_a8b5c2376e1400d69e4d0440fbdffebab}\label{classobject_a8b5c2376e1400d69e4d0440fbdffebab}} 
+\index{object@{object}!translate@{translate}}
+\index{translate@{translate}!object@{object}}
+\doxysubsubsection{\texorpdfstring{translate()}{translate()}}
+{\footnotesize\ttfamily void object\+::translate (\begin{DoxyParamCaption}\item[{glm\+::vec3}]{translation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classobject_a083bd0f022fe0f0e0f3334766e726ea5}\label{classobject_a083bd0f022fe0f0e0f3334766e726ea5}} 
+\index{object@{object}!model@{model}}
+\index{model@{model}!object@{object}}
+\doxysubsubsection{\texorpdfstring{model}{model}}
+{\footnotesize\ttfamily glm\+::mat4 object\+::model}
+
+\mbox{\Hypertarget{classobject_a0d605e44ee095064756abb1870c180e9}\label{classobject_a0d605e44ee095064756abb1870c180e9}} 
+\index{object@{object}!no\_of\_vertices@{no\_of\_vertices}}
+\index{no\_of\_vertices@{no\_of\_vertices}!object@{object}}
+\doxysubsubsection{\texorpdfstring{no\_of\_vertices}{no\_of\_vertices}}
+{\footnotesize\ttfamily int object\+::no\+\_\+of\+\_\+vertices}
+
+\mbox{\Hypertarget{classobject_afe6a632b923802154b8d12136147808f}\label{classobject_afe6a632b923802154b8d12136147808f}} 
+\index{object@{object}!VAO@{VAO}}
+\index{VAO@{VAO}!object@{object}}
+\doxysubsubsection{\texorpdfstring{VAO}{VAO}}
+{\footnotesize\ttfamily unsigned int object\+::\+V\+AO}
+
+\mbox{\Hypertarget{classobject_acefb3b141594ab973a7353d3220b4f4e}\label{classobject_acefb3b141594ab973a7353d3220b4f4e}} 
+\index{object@{object}!VBO@{VBO}}
+\index{VBO@{VBO}!object@{object}}
+\doxysubsubsection{\texorpdfstring{VBO}{VBO}}
+{\footnotesize\ttfamily unsigned int object\+::\+V\+BO}
+
+\mbox{\Hypertarget{classobject_aeb3eb5e2efa27439811beb1abf9bef1d}\label{classobject_aeb3eb5e2efa27439811beb1abf9bef1d}} 
+\index{object@{object}!vertices@{vertices}}
+\index{vertices@{vertices}!object@{object}}
+\doxysubsubsection{\texorpdfstring{vertices}{vertices}}
+{\footnotesize\ttfamily std\+::vector$<$float$>$ object\+::vertices}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Open\+G\+L/2015\+B5\+A\+A0600\+H\+\_\+\+C\+G\+\_\+\+P/\+Final\+Project/\mbox{\hyperlink{object_8h}{object.\+h}}\end{DoxyCompactItemize}

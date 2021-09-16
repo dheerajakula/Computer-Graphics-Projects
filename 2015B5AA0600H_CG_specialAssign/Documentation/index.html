@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Documentation</title>
+</head>
+<body style="background-color:powderblue;">
+
+<h1>Surface Revolution with hermite curves</h1>
+
+<hr>
+
+<h2>Hermite Curve</h2>
+<p>Hermite curves are very easy to calculate but also very powerful. 
+    They are used to smoothly interpolate between key-points 
+    (like object movement in keyframe animation or camera control)</p>
+<p>To calculate 2D hermite curve, we need following vectors</p>
+<ul>
+    <li>P1: the startpoint of the curve</li>
+    <li>T1: the tangent (e.g. direction and speed) to how the curve leaves the startpoint</li>
+    <li>P2: he endpoint of the curve</li>
+    <li>T2: the tangent (e.g. direction and speed) to how the curves meets the endpoint</li>
+</ul>
+<img src="assets/hermite1.PNG" alt="Hermite Curve"> 
+
+<hr>
+
+<h2>Controls</h2>
+<table style="width:40%">
+    <tr>
+      <th>Control</th>
+      <th>When to Use</th>
+    </tr>
+    <tr>
+      <td>Left Mouse Click</td>
+      <td>Add a Point</td>
+    </tr>
+    <tr>
+      <td>Right mouse click</td>
+      <td>Adjust Tangent & finalize</td>
+    </tr>
+    <tr>
+        <td>+ Button</td>
+        <td>To click Before Add point</td>
+    </tr>
+    <tr>
+        <td>Space Bar Button</td>
+        <td>To click before moving a point</td>
+    </tr>
+    <tr>
+        <td>- Button</td>
+        <td>Before Removing a point(By mouse right click)</td>
+      </tr>
+    <tr>
+        <td>Enter Button </td>
+        <td>Generate Surface of revolution</td>
+    </tr>
+</table> 
+
+<hr>
+
+<h2>Different Results of Surface Revolution</h2>
+
+<img src="assets/Hermite2.PNG" alt="Hermite Curve" width="50%" height="500"> 
+<img src="assets/sr2.png" alt="Hermite Curve" width="50%" height="500" style="float:right"> 
+<img src="assets/Hermite3.PNG" alt="Hermite Curve" width="50%" height="500"> 
+<img src="assets/sr3.png" alt="Hermite Curve" width="50%" height="500" style="float:right"> 
+<img src="assets/Hermite4.PNG" alt="Hermite Curve" width="50%" height="500"> 
+<img src="assets/sr4.png" alt="Hermite Curve" width="50%" height="500" style="float:right"> 
+
+
+</body>
+</html> 
